@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <td>COl1</td>
+    <td>Col2</td>
+    <td>Col3</td>
+  </tr>
+</table>
+<ul class="phones">
+  <li *ngFor="let linkblock of linkblocks">
+    <a routerLink="/detail/{{linkblock.linkUrl}}">
+      <span class="badge">{{linkblock.linkTitle}}</span> {{linkblock.linkTitle}}
+    </a>
+
+  </li>
+</ul>
+<p>linkpage works!</p>

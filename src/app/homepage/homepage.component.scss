@@ -1,0 +1,17 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+
+}
+.open-close-container {
+  position: fixed;
+  top: -300vw;
+  height: 300vw;
+  width: 100%;
+  border: 1px solid #dddddd;
+  margin: 30px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 2vw
+}

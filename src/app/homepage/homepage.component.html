@@ -1,1 +1,4 @@
-<p>homepage works!</p>
+<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
+  <app-linkpage></app-linkpage>
+</div>
+<button (click)="toggle()">Open/Close</button>
